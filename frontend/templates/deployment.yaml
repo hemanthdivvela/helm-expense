@@ -9,7 +9,7 @@ metadata:
     project: expense
     tier: web
 spec:
-  replicas: {{ .values.deployment.replicas }}
+  replicas: {{ .Values.deployment.replicas }}
   selector:
     matchLabels:
       component: frontend
