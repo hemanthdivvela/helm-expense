@@ -1,0 +1,4 @@
+apiVersion: v1
+name: frontend
+version: 0.0.1
+description: helm chat how to work in helm in real world 
