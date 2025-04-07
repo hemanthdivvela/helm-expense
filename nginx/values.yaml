@@ -2,8 +2,8 @@ configmap:
   port: 8080
 
 deployment:
-  replicas: 2
-  image: latests
+  replicas: 3
+  image: stable-perl
 
 service:
   nodePort: 32134
